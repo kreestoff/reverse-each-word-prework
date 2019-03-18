@@ -3,5 +3,6 @@ def reverse_each_word(string)
   solution = []
   array.each do |word|
     solution << word.reverse!
+    solution.to_a 
   end
 end
